@@ -1,5 +1,5 @@
 .PHONY: clean image
-SOURCE = caractere
+SOURCE = caractere-nova-linha
 
 all: image
 
