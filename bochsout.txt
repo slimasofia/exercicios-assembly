@@ -34,7 +34,7 @@
 00000000000i[IMG   ] Disk image modules
 00000000000i[IMG   ]   flat concat sparse dll growing undoable volatile vmware3
 00000000000i[IMG   ]   vmware4 vbox vpc vvfat
-00000000000i[MEM0  ] allocated memory at 0x74694e600010. after alignment, vector=0x74694e601000, block_size = 128K
+00000000000i[MEM0  ] allocated memory at 0x7a23f2600010. after alignment, vector=0x7a23f2601000, block_size = 128K
 00000000000i[MEM0  ] 32,00MB
 00000000000i[MEM0  ] mem block size = 0x00020000, blocks=256
 00000000000i[MEM0  ] rom at 0xfffe0000/131072 ('/usr/local/share/bochs/BIOS-bochs-latest')
@@ -46,7 +46,7 @@
 00000000000i[PLUGIN] init_dev of 'cmos' plugin device by virtual method
 00000000000i[CMOS  ] CMOS RTC using realtime synchronisation method
 00000000000i[CMOS  ] Using local time for initial clock
-00000000000i[CMOS  ] Setting initial clock to: Thu Dec  5 16:16:14   2024 tz=utc (time0=1733415374)
+00000000000i[CMOS  ] Setting initial clock to: Thu Dec  5 19:48:57   2024 tz=utc (time0=1733428137)
 00000000000i[PLUGIN] init_dev of 'dma' plugin device by virtual method
 00000000000i[DMA   ] channel 4 used by cascade
 00000000000i[PLUGIN] init_dev of 'pic' plugin device by virtual method
@@ -212,27 +212,27 @@
 00001497498i[BXVGA ] VBE known Display Interface b0c0
 00001497530i[BXVGA ] VBE known Display Interface b0c5
 00001498951i[VBIOS ] VBE Bios ID: vbe.c 2024-03-03
-00562460471i[BIOS  ] Booting from 0000:7c00
-00612766689i[CPU0  ] WARNING: HLT instruction with IF=0!
-00943119490i[      ] Ctrl-C detected in signal handler.
-00943119490i[      ] dbg: Quit
-00943119490i[CPU0  ] CPU is in real mode (halted)
-00943119490i[CPU0  ] CS.mode = 16 bit
-00943119490i[CPU0  ] SS.mode = 16 bit
-00943119490i[CPU0  ] EFER   = 0x00000000
-00943119490i[CPU0  ] | EAX=00000e63  EBX=00000000  ECX=00090000  EDX=00000063
-00943119490i[CPU0  ] | ESP=0000ffd6  EBP=00000000  ESI=000e0000  EDI=0000ffac
-00943119490i[CPU0  ] | IOPL=0 id vip vif ac vm rf nt of df if tf SF zf af pf cf
-00943119490i[CPU0  ] | SEG sltr(index|ti|rpl)     base    limit G D
-00943119490i[CPU0  ] |  CS:0000( 0004| 0|  0) 00000000 0000ffff 0 0
-00943119490i[CPU0  ] |  DS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
-00943119490i[CPU0  ] |  SS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
-00943119490i[CPU0  ] |  ES:0000( 0005| 0|  0) 00000000 0000ffff 0 0
-00943119490i[CPU0  ] |  FS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
-00943119490i[CPU0  ] |  GS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
-00943119490i[CPU0  ] | EIP=00007c17 (00007c17)
-00943119490i[CPU0  ] | CR0=0x60000010 CR2=0x00000000
-00943119490i[CPU0  ] | CR3=0x00000000 CR4=0x00000000
-00943119490i[CMOS  ] Last time: 1733415383 tz=utc (Thu Dec  5 16:16:23   2024)
-00943119490i[XGUI  ] Exit
-00943119490i[SIM   ] quit_sim called with exit code 0
+00523634121i[BIOS  ] Booting from 0000:7c00
+00523637090i[CPU0  ] WARNING: HLT instruction with IF=0!
+01221071691i[      ] Ctrl-C detected in signal handler.
+01221071691i[      ] dbg: Quit
+01221071691i[CPU0  ] CPU is in real mode (halted)
+01221071691i[CPU0  ] CS.mode = 16 bit
+01221071691i[CPU0  ] SS.mode = 16 bit
+01221071691i[CPU0  ] EFER   = 0x00000000
+01221071691i[CPU0  ] | EAX=00000e41  EBX=00000700  ECX=00090000  EDX=0000050a
+01221071691i[CPU0  ] | ESP=0000ffd6  EBP=00000000  ESI=000e0000  EDI=0000ffac
+01221071691i[CPU0  ] | IOPL=0 id vip vif ac vm rf nt of df if tf SF zf af pf cf
+01221071691i[CPU0  ] | SEG sltr(index|ti|rpl)     base    limit G D
+01221071691i[CPU0  ] |  CS:0000( 0004| 0|  0) 00000000 0000ffff 0 0
+01221071691i[CPU0  ] |  DS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+01221071691i[CPU0  ] |  SS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+01221071691i[CPU0  ] |  ES:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+01221071691i[CPU0  ] |  FS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+01221071691i[CPU0  ] |  GS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+01221071691i[CPU0  ] | EIP=00007c21 (00007c21)
+01221071691i[CPU0  ] | CR0=0x60000010 CR2=0x00000000
+01221071691i[CPU0  ] | CR3=0x00000000 CR4=0x00000000
+01221071691i[CMOS  ] Last time: 1733428144 tz=utc (Thu Dec  5 19:49:04   2024)
+01221071691i[XGUI  ] Exit
+01221071691i[SIM   ] quit_sim called with exit code 0
